@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change beforePath="$PROJECT_DIR$/services/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/discovery" beforeDir="false" afterPath="$PROJECT_DIR$/services/discovery" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <workItem from="1735631823979" duration="5832000" />
       <workItem from="1735716241575" duration="1396000" />
       <workItem from="1735723725149" duration="853000" />
-      <workItem from="1735724618603" duration="1041000" />
+      <workItem from="1735724618603" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
