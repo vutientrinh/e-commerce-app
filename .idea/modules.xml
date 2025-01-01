@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/services/config-server/config-server.iml" filepath="$PROJECT_DIR$/services/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/configserver/configserver.iml" filepath="$PROJECT_DIR$/services/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/discovery/discovery.iml" filepath="$PROJECT_DIR$/services/discovery/discovery.iml" />
     </modules>
   </component>
 </project>
