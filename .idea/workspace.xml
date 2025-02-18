@@ -5,50 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_toml_2_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_jandex_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_22_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_48_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_10_20_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_database_postgresql_10_20_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_7_0_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_6_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_6_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/handler/GlobalExceptionhandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/test/java/com/example/product/ProductApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5026d854-57a6-421c-bfa9-ae87708247aa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5026d854-57a6-421c-bfa9-ae87708247aa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/customer/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.product.category" />
       <recent name="com.example.customer.handler" />
       <recent name="com.example.customer.customer" />
       <recent name="com.example.customer.exception" />
@@ -201,7 +163,7 @@
       <workItem from="1739776571595" duration="882000" />
       <workItem from="1739780772298" duration="5403000" />
       <workItem from="1739803650555" duration="6823000" />
-      <workItem from="1739858208198" duration="7571000" />
+      <workItem from="1739858208198" duration="10151000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

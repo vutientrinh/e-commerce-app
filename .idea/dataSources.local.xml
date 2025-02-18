@@ -10,9 +10,7 @@
       <user-name>vutientrinh</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
+          <node kind="database" qname="product" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
