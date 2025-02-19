@@ -12,32 +12,32 @@ import java.util.List;
 @RequestMapping("/api/v1/customer")
 @RequiredArgsConstructor
 public class CustomerController {
-    private final CustomerService service;
+    private final CustomerService customerService;
     @PostMapping
     public ResponseEntity<String> createCustomer(
              @RequestBody @Valid CustomerRequest request
     ){
-        return ResponseEntity.ok(service.createCustomer(request));
+        return ResponseEntity.ok(customerService.createCustomer(request));
     }
 
     @PutMapping
     public ResponseEntity<Void> updateCustomer(
             @RequestBody @Valid CustomerRequest request
     ){
-        service.updateCustomer(request);
+        customerService.updateCustomer(request);
         return ResponseEntity.accepted().build();
     }
 
     @GetMapping
     public ResponseEntity<List<CustomerResponse>> findAll(){
-        return ResponseEntity.ok(service.findAllCustomer());
+        return ResponseEntity.ok(customerService.findAllCustomer());
     }
 
     @GetMapping("/exits/{customer-id}")
     public ResponseEntity<Boolean> existsById(
             @PathVariable("customer-id") String customerId
     ){
-        return ResponseEntity.ok(service.existsById(customerId));
+        return ResponseEntity.ok(customerService.existsById(customerId));
 
     }
 
@@ -45,14 +45,14 @@ public class CustomerController {
     public ResponseEntity<CustomerResponse> findById(
             @PathVariable("customer-id") String customerId
     ){
-        return ResponseEntity.ok(service.findById(customerId));
+        return ResponseEntity.ok(customerService.findById(customerId));
 
     }
     @DeleteMapping("/{customer-id}")
     public ResponseEntity<Void>delete(
             @PathVariable("customer-id") String customerId
     ){
-        service.deleteCustomer(customerId);
+        customerService.deleteCustomer(customerId);
         return ResponseEntity.accepted().build();
     }
 }
