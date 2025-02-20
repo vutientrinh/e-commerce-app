@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/exception/ProductPurchaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductPurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductPurchaseRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductPurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductPurchaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/exception/ProductPurchaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/exception/ProductPurchaseException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,37 +50,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Code/e-commerce-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8937e041e74aca687c7252cb8e25d227&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/WorkSpace/Code/e-commerce-app/services/product/src/main/java/com/example/product",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "8937e041e74aca687c7252cb8e25d227"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -90,6 +91,9 @@
       <recent name="com.example.product.category" />
       <recent name="com.example.customer.handler" />
       <recent name="com.example.customer.customer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WorkSpace\Code\e-commerce-app\services\product\src\main\java\com\example\product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\TLCN\e-commerce-app\services\config-server" />
@@ -170,7 +174,8 @@
       <workItem from="1739858208198" duration="10228000" />
       <workItem from="1739888287668" duration="3329000" />
       <workItem from="1739940670880" duration="7456000" />
-      <workItem from="1739981627837" duration="3232000" />
+      <workItem from="1739981627837" duration="3439000" />
+      <workItem from="1740059512896" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

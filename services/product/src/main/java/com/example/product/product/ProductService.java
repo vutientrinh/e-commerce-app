@@ -1,9 +1,10 @@
 package com.example.product.product;
 
 
-import com.example.product.product.exception.ProductPurchaseException;
+import com.example.product.exception.ProductPurchaseException;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -14,7 +15,6 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class ProductService {
-
     private final ProductRepository productRepository;
     private final ProductMapper productMapper;
     public Integer createProduct(ProductRequest request) {
