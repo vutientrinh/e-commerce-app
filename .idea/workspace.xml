@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/exception/ProductPurchaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/exception/ProductPurchaseException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/WorkSpace/Code/e-commerce-app/services/product/src/main/java/com/example/product",
+    "last_opened_file_path": "C:/WorkSpace/Code/app-chat-springboot-realtime",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +67,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "terminal",
     "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "8937e041e74aca687c7252cb8e25d227"
   },
@@ -106,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Spring Boot.DiscoveryApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,7 +171,8 @@
       <workItem from="1739888287668" duration="3329000" />
       <workItem from="1739940670880" duration="7456000" />
       <workItem from="1739981627837" duration="3439000" />
-      <workItem from="1740059512896" duration="2634000" />
+      <workItem from="1740059512896" duration="2837000" />
+      <workItem from="1740124711695" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
