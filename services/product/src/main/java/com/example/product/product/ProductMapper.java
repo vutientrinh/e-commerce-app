@@ -2,9 +2,12 @@ package com.example.product.product;
 
 
 import com.example.product.category.Category;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
+
 public class ProductMapper {
     public Product toProduct(ProductRequest request) {
         return Product.builder()

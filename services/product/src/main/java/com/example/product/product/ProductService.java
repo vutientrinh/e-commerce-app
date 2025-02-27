@@ -15,10 +15,8 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class ProductService {
-    @Autowired
-    private  ProductRepository productRepository;
-    @Autowired
-    private  ProductMapper productMapper;
+    private final ProductRepository productRepository;
+    private final ProductMapper productMapper;
     public Integer createProduct(ProductRequest request) {
         var product = productMapper.toProduct(request);
         return productRepository.save(product).getId();
