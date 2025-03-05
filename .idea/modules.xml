@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/services/config-server/config-server.iml" filepath="$PROJECT_DIR$/services/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/customer/customer.iml" filepath="$PROJECT_DIR$/services/customer/customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/discovery/discovery.iml" filepath="$PROJECT_DIR$/services/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/product/product.iml" filepath="$PROJECT_DIR$/services/product/product.iml" />
     </modules>
   </component>
 </project>
