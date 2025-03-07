@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/exception/ProductPurchaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/WorkSpace/Code/e-commerce-app/services/product/pom.xml",
+    "last_opened_file_path": "C:/WorkSpace/Code/e-commerce-app/services/product/src/main/java/com/example/product",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -211,7 +209,7 @@
       <workItem from="1741069344828" duration="4563000" />
       <workItem from="1741182274111" duration="8652000" />
       <workItem from="1741248261742" duration="4118000" />
-      <workItem from="1741351208209" duration="12990000" />
+      <workItem from="1741351208209" duration="13288000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
