@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/exception/ProductPurchaseException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
     </list>
@@ -91,11 +90,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.product.exception" />
       <recent name="com.example.product.service" />
       <recent name="com.example.product.repository" />
       <recent name="com.example.product.dto" />
       <recent name="com.example.product.tdo" />
-      <recent name="com.example.product.product" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\e-commerce-app\services\product\src\main\java\com\example\product" />
@@ -212,7 +211,7 @@
       <workItem from="1741069344828" duration="4563000" />
       <workItem from="1741182274111" duration="8652000" />
       <workItem from="1741248261742" duration="4118000" />
-      <workItem from="1741351208209" duration="11116000" />
+      <workItem from="1741351208209" duration="12990000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

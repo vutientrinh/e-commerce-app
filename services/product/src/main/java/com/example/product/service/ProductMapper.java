@@ -1,5 +1,6 @@
 package com.example.product.service;
 
+import com.example.product.dto.ProductPurchaseResponse;
 import com.example.product.dto.ProductRequest;
 import com.example.product.dto.ProductResponse;
 import com.example.product.product.Category;
@@ -29,6 +30,16 @@ public class ProductMapper {
                 product.getCategory().getId(),
                 product.getCategory().getName(),
                 product.getCategory().getDescription()
+        );
+    }
+
+    public ProductPurchaseResponse toProductPurchaseResponse(Product product, double quantity) {
+        return new ProductPurchaseResponse(
+                product.getId(),
+                product.getName(),
+                product.getDescription(),
+                product.getPrice(),
+                quantity
         );
     }
 }
