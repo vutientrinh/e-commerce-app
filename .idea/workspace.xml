@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +209,7 @@
       <workItem from="1741069344828" duration="4563000" />
       <workItem from="1741182274111" duration="8652000" />
       <workItem from="1741248261742" duration="4118000" />
-      <workItem from="1741351208209" duration="13288000" />
+      <workItem from="1741351208209" duration="14562000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
