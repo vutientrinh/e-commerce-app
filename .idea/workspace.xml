@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5026d854-57a6-421c-bfa9-ae87708247aa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5026d854-57a6-421c-bfa9-ae87708247aa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5026d854-57a6-421c-bfa9-ae87708247aa/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5026d854-57a6-421c-bfa9-ae87708247aa/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -82,7 +76,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "database.query.execution",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "8937e041e74aca687c7252cb8e25d227"
   },
@@ -101,11 +95,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.product.service" />
+      <recent name="com.example.product.repository" />
       <recent name="com.example.product.dto" />
       <recent name="com.example.product.tdo" />
-      <recent name="com.example.product.service" />
       <recent name="com.example.product.product" />
-      <recent name="com.example.customer.handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\e-commerce-app\services\product\src\main\java\com\example\product" />
@@ -121,7 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,7 +215,8 @@
       <workItem from="1741015355787" duration="3146000" />
       <workItem from="1741069344828" duration="4563000" />
       <workItem from="1741182274111" duration="8652000" />
-      <workItem from="1741248261742" duration="3905000" />
+      <workItem from="1741248261742" duration="4118000" />
+      <workItem from="1741351208209" duration="9146000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

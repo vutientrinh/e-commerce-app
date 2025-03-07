@@ -2,15 +2,14 @@ package com.example.product.controller;
 
 import com.example.product.dto.ProductPurchaseRequest;
 import com.example.product.dto.ProductPurchaseResponse;
+import com.example.product.dto.ProductResponse;
 import com.example.product.service.ProductService;
 import com.example.product.dto.ProductRequest;
 import jakarta.validation.Valid;
+import jakarta.ws.rs.Path;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -32,5 +31,16 @@ public class ProductController {
             @RequestBody List<ProductPurchaseRequest> request
     ){
         return ResponseEntity.ok(productService.purchaseProducts(request));
+    }
+
+
+    @GetMapping("/product-id")
+    public ResponseEntity<ProductResponse> findById(@PathVariable("product-id") Integer productId){
+        return ResponseEntity.ok(productService.findById(productId));
+    }
+
+    @GetMapping
+    public ResponseEntity<List<ProductResponse>> findAll(){
+        return ResponseEntity.ok(productService.findAll());
     }
 }
