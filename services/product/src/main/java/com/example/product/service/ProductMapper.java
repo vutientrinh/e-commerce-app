@@ -1,6 +1,7 @@
 package com.example.product.service;
 
 import com.example.product.dto.ProductRequest;
+import com.example.product.dto.ProductResponse;
 import com.example.product.product.Category;
 import com.example.product.product.Product;
 import org.springframework.stereotype.Service;
@@ -18,4 +19,16 @@ public class ProductMapper {
                 .build();
     }
 
+    public ProductResponse toProductResponse(Product product) {
+        return new ProductResponse(
+                product.getId(),
+                product.getName(),
+                product.getDescription(),
+                product.getAvailableQuantity(),
+                product.getPrice(),
+                product.getCategory().getId(),
+                product.getCategory().getName(),
+                product.getCategory().getDescription()
+        );
+    }
 }

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductPurchaseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/example/product/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +212,7 @@
       <workItem from="1741069344828" duration="4563000" />
       <workItem from="1741182274111" duration="8652000" />
       <workItem from="1741248261742" duration="4118000" />
-      <workItem from="1741351208209" duration="9146000" />
+      <workItem from="1741351208209" duration="11116000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
