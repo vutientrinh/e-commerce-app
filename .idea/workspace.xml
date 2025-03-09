@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/order/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/util/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -110,11 +90,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.order.dto" />
+      <recent name="com.example.order.service" />
       <recent name="com.example.order.order" />
       <recent name="com.example.order.util" />
       <recent name="com.example.order.enum" />
-      <recent name="com.example.product.exception" />
-      <recent name="com.example.product.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\e-commerce-app\services\product\src\main\java\com\example\product" />
@@ -243,7 +223,7 @@
       <workItem from="1741427099764" duration="2173000" />
       <workItem from="1741446114216" duration="1240000" />
       <workItem from="1741505579044" duration="382000" />
-      <workItem from="1741506709034" duration="4849000" />
+      <workItem from="1741506709034" duration="6014000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
