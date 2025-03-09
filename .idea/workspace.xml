@@ -5,8 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/order/OrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/util/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9d28ea3-6469-4d32-9775-b49f2ab47b36/storage_v2/_src_/database/vutientrinh.qFF7sg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/example/customer/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +40,7 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,18 +82,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Code/e-commerce-app/services/product/src/main/java/com/example/product&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Code/e-commerce-app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8937e041e74aca687c7252cb8e25d227&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;6609980b80421ef836165e213e7aeb6c&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -87,11 +110,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.order.order" />
+      <recent name="com.example.order.util" />
+      <recent name="com.example.order.enum" />
       <recent name="com.example.product.exception" />
       <recent name="com.example.product.service" />
-      <recent name="com.example.product.repository" />
-      <recent name="com.example.product.dto" />
-      <recent name="com.example.product.tdo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\e-commerce-app\services\product\src\main\java\com\example\product" />
@@ -146,6 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductApplication" />
@@ -154,6 +184,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
@@ -209,7 +240,10 @@
       <workItem from="1741182274111" duration="8652000" />
       <workItem from="1741248261742" duration="4118000" />
       <workItem from="1741351208209" duration="14653000" />
-      <workItem from="1741427099764" duration="1838000" />
+      <workItem from="1741427099764" duration="2173000" />
+      <workItem from="1741446114216" duration="1240000" />
+      <workItem from="1741505579044" duration="382000" />
+      <workItem from="1741506709034" duration="4849000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

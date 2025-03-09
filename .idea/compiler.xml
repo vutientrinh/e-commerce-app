@@ -13,6 +13,7 @@
         <module name="product" />
         <module name="discovery" />
         <module name="customer" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="configserver" target="17" />
       <module name="customer" target="19" />
       <module name="discovery" target="19" />
+      <module name="order" target="19" />
       <module name="product" target="19" />
     </bytecodeTargetLevel>
   </component>
@@ -29,6 +31,7 @@
       <module name="configserver" options="-parameters" />
       <module name="customer" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />
     </option>
   </component>
