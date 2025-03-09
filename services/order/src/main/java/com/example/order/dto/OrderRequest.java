@@ -1,6 +1,6 @@
 package com.example.order.dto;
 
-import com.example.order.util.PaymentMethod;
+import com.example.order.product.PaymentMethod;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

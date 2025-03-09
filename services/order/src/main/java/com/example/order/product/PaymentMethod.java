@@ -1,4 +1,4 @@
-package com.example.order.util;
+package com.example.order.product;
 
 public enum PaymentMethod {
     PAYPAL,

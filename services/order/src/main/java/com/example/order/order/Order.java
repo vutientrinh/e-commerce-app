@@ -1,6 +1,6 @@
 package com.example.order.order;
 
-import com.example.order.util.PaymentMethod;
+import com.example.order.product.PaymentMethod;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
@@ -10,6 +10,8 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
+
+import static jakarta.persistence.EnumType.STRING;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -25,7 +27,7 @@ public class Order {
     private Integer id;
     private String reference;
     private BigDecimal totalAmount;
-    @Enumerated(EnumType.STRING)
+    @Enumerated(STRING)
     private PaymentMethod paymentMethod;
     private String customerId;
     @OneToMany(mappedBy = "order")
