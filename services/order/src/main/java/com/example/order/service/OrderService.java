@@ -5,6 +5,8 @@ import com.example.order.dto.OrderLineRequest;
 import com.example.order.dto.OrderRequest;
 import com.example.order.dto.PurchaseRequest;
 import com.example.order.exception.BusinessException;
+import com.example.order.kafka.OrderConfirmation;
+import com.example.order.kafka.OrderProducer;
 import com.example.order.order.OrderLine;
 import com.example.order.product.ProductClient;
 import com.example.order.repository.OrderRepository;
@@ -20,13 +22,14 @@ public class OrderService {
     private final OrderRepository orderRepository;
     private final OrderMapper mapper;
     private final OrderLineService orderLineService;
+    private final OrderProducer orderProducer;
 
     public Integer createOrder(OrderRequest orderRequest) {
         //check the customer
         var customer = this.customerClient.findCustomerById(orderRequest.customerId())
                 .orElseThrow(() -> new BusinessException("Cannot create order :: No Customer exists with the provided ID"));
         //purchase the products --> product-ms
-        this.productClient.purchaseProducts(orderRequest.products());
+        var purchasedProducts =  this.productClient.purchaseProducts(orderRequest.products());
         var order = this.orderRepository.save(mapper.toOrder(orderRequest));
         //persist order
         for (PurchaseRequest purchaseRequest : orderRequest.products()) {
@@ -37,11 +40,15 @@ public class OrderService {
 
 
         //persist order lines
-
-        //start payment process
-
-
-        //send the order confirmation --> notification-ms (kafka)
-        return null;
+        orderProducer.sendOrderConfirmation(
+                new OrderConfirmation(
+                        orderRequest.reference(),
+                        orderRequest.amount(),
+                        orderRequest.paymentMethod(),
+                        customer,
+                        purchasedProducts
+                )
+        );
+        return order.getId();
     }
 }
