@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/dto/OrderResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -18,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -89,10 +93,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.order.dto" />
       <recent name="com.example.order.kafka" />
       <recent name="com.example.order.service" />
       <recent name="com.example.order.repository" />
-      <recent name="com.example.order.dto" />
       <recent name="com.example.order.product" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -226,7 +230,8 @@
       <workItem from="1741597547118" duration="3049000" />
       <workItem from="1741685604446" duration="1899000" />
       <workItem from="1741700231633" duration="2303000" />
-      <workItem from="1741704188236" duration="6228000" />
+      <workItem from="1741704188236" duration="6261000" />
+      <workItem from="1741771813506" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

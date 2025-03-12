@@ -3,15 +3,20 @@ package com.example.order.service;
 import com.example.order.customer.CustomerClient;
 import com.example.order.dto.OrderLineRequest;
 import com.example.order.dto.OrderRequest;
+import com.example.order.dto.OrderResponse;
 import com.example.order.dto.PurchaseRequest;
 import com.example.order.exception.BusinessException;
 import com.example.order.kafka.OrderConfirmation;
 import com.example.order.kafka.OrderProducer;
+import com.example.order.order.Order;
 import com.example.order.order.OrderLine;
 import com.example.order.product.ProductClient;
 import com.example.order.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -50,5 +55,12 @@ public class OrderService {
                 )
         );
         return order.getId();
+    }
+
+    public List<OrderResponse> findAll() {
+        return orderRepository.findAll()
+                .stream()
+                .map(mapper::fromOrder)
+                .collect(Collectors.toList());
     }
 }
