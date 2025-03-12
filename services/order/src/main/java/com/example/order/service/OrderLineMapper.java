@@ -1,6 +1,7 @@
 package com.example.order.service;
 
 import com.example.order.dto.OrderLineRequest;
+import com.example.order.dto.OrderLineResponse;
 import com.example.order.order.Order;
 import com.example.order.order.OrderLine;
 import com.example.order.repository.OrderLineRepository;
@@ -19,5 +20,9 @@ public class OrderLineMapper {
                 )
                 .productId(orderLineRequest.productId())
                 .build();
+    }
+
+    public OrderLineResponse toOrderLineResponse(OrderLine orderLine) {
+        return new OrderLineResponse(orderLine.getId(), orderLine.getQuantity());
     }
 }
