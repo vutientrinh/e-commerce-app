@@ -12,6 +12,7 @@ import com.example.order.order.Order;
 import com.example.order.order.OrderLine;
 import com.example.order.product.ProductClient;
 import com.example.order.repository.OrderRepository;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -34,7 +35,7 @@ public class OrderService {
         var customer = this.customerClient.findCustomerById(orderRequest.customerId())
                 .orElseThrow(() -> new BusinessException("Cannot create order :: No Customer exists with the provided ID"));
         //purchase the products --> product-ms
-        var purchasedProducts =  this.productClient.purchaseProducts(orderRequest.products());
+        var purchasedProducts = this.productClient.purchaseProducts(orderRequest.products());
         var order = this.orderRepository.save(mapper.toOrder(orderRequest));
         //persist order
         for (PurchaseRequest purchaseRequest : orderRequest.products()) {
@@ -62,5 +63,11 @@ public class OrderService {
                 .stream()
                 .map(mapper::fromOrder)
                 .collect(Collectors.toList());
+    }
+
+    public OrderResponse findById(Integer orderId) {
+        return orderRepository.findById(orderId)
+                .map(mapper::fromOrder)
+                .orElseThrow(() -> new EntityNotFoundException(String.format("No order found with the provided ID: %d", orderId)));
     }
 }
