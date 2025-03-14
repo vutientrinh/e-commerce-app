@@ -1,7 +1,8 @@
-package com.example.order.order;
+package com.example.payment.payment;
 
-import com.example.order.product.PaymentMethod;
+import com.example.payment.util.PaymentMethod;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -9,29 +10,26 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.List;
 
 import static jakarta.persistence.EnumType.STRING;
 
 @AllArgsConstructor
-@NoArgsConstructor
-@Builder
 @Getter
 @Setter
+@Builder
 @Entity
-@EntityListeners((AuditingEntityListener.class))
-@Table(name = "customer_order")
-public class Order {
+@NoArgsConstructor
+@EntityListeners(AuditingEntityListener.class)
+@Table(name = "payment")
+public class Payment {
+
     @Id
     @GeneratedValue
     private Integer id;
-    private String reference;
-    private BigDecimal totalAmount;
+    private BigDecimal amount;
     @Enumerated(STRING)
     private PaymentMethod paymentMethod;
-    private String customerId;
-    @OneToMany(mappedBy = "order")
-    private List<OrderLine> orderLine;
+    private Integer orderId;
     @CreatedDate
     @Column(updatable = false, nullable = false)
     private LocalDateTime createDate;

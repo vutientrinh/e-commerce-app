@@ -11,18 +11,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="product" />
+        <module name="payment" />
         <module name="discovery" />
         <module name="customer" />
         <module name="order" />
-      </profile>
-      <profile name="Annotation profile for payment" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="payment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
