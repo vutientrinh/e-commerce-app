@@ -1,14 +1,5 @@
 spring:
-
-  datasource:
-    url: jdbc:postgresql://localhost:5432/order
-    username: vutientrinh
-    password: vutientrinh
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: validate
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  config:
+    import: optional:configserver:http://localhost:8888
   application:
     name: payment-service

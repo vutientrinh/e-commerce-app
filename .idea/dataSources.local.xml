@@ -11,11 +11,12 @@
       <schema-mapping>
         <introspection-scope>
           <node negative="1">
-            <node kind="database" qname="@">
-              <node kind="schema" qname="@" />
-            </node>
             <node kind="database" qname="product">
               <node kind="schema" qname="public" />
+            </node>
+            <node kind="database">
+              <name qname="order" />
+              <name qname="payment" />
             </node>
           </node>
         </introspection-scope>
