@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/config/KafkaPaymentTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/dto/PaymentNotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/notification/NotificationProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_form_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_form_spring_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_4_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/payment/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -241,7 +247,7 @@
       <workItem from="1741704188236" duration="6261000" />
       <workItem from="1741771813506" duration="2558000" />
       <workItem from="1741921149052" duration="3089000" />
-      <workItem from="1741925364406" duration="1817000" />
+      <workItem from="1741925364406" duration="3278000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
