@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/dto/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/payment/PaymentClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.order.dto" />
       <recent name="com.example.payment.dto" />
       <recent name="com.example.payment.service" />
       <recent name="com.example.payment.repository" />
       <recent name="com.example.payment.util" />
-      <recent name="com.example.order.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\e-commerce-app\services\order\src\main\java\com\example\order" />
@@ -243,7 +242,7 @@
       <workItem from="1741921149052" duration="3089000" />
       <workItem from="1741925364406" duration="3398000" />
       <workItem from="1741970618140" duration="139000" />
-      <workItem from="1741972477424" duration="1244000" />
+      <workItem from="1741972477424" duration="1957000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>

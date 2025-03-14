@@ -1,15 +1,13 @@
 package com.example.order.service;
 
 import com.example.order.customer.CustomerClient;
-import com.example.order.dto.OrderLineRequest;
-import com.example.order.dto.OrderRequest;
-import com.example.order.dto.OrderResponse;
-import com.example.order.dto.PurchaseRequest;
+import com.example.order.dto.*;
 import com.example.order.exception.BusinessException;
 import com.example.order.kafka.OrderConfirmation;
 import com.example.order.kafka.OrderProducer;
 import com.example.order.order.Order;
 import com.example.order.order.OrderLine;
+import com.example.order.payment.PaymentClient;
 import com.example.order.product.ProductClient;
 import com.example.order.repository.OrderRepository;
 import jakarta.persistence.EntityNotFoundException;
@@ -30,6 +28,7 @@ public class OrderService {
     private final OrderLineService orderLineService;
     private final OrderProducer orderProducer;
 
+    private final PaymentClient paymentClient;
     public Integer createOrder(OrderRequest orderRequest) {
         //check the customer
         var customer = this.customerClient.findCustomerById(orderRequest.customerId())
@@ -43,7 +42,14 @@ public class OrderService {
                     new OrderLineRequest(null, order.getId(), purchaseRequest.productId(), purchaseRequest.quantity())
             );
         }
-
+        var paymentRequest = new PaymentRequest(
+                orderRequest.amount(),
+                orderRequest.paymentMethod(),
+                order.getId(),
+                order.getReference(),
+                customer
+        );
+        paymentClient.requestOrderPayment(paymentRequest);
 
         //persist order lines
         orderProducer.sendOrderConfirmation(
