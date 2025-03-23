@@ -1,5 +1,6 @@
 package com.example.payment.dto;
 
+import com.example.payment.payment.Customer;
 import com.example.payment.util.PaymentMethod;
 
 import java.math.BigDecimal;
