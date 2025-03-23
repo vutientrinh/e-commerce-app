@@ -6,8 +6,8 @@ public record PaymentConfirmation(
         String orderReference,
         BigDecimal amount,
         PaymentMethod paymentMethod,
-        String customerFirstname,
-        String customerLastname,
+        String customerFirstName,
+        String customerLastName,
         String customerEmail
 ) {
 }

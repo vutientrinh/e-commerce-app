@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_26_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/email/EmailTemplates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/NotificationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/PaymentConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/PaymentConfirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/dto/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/payment/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/dto/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/src/main/java/com/example/payment/dto/PaymentRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -253,7 +250,7 @@
       <workItem from="1742234614800" duration="1312000" />
       <workItem from="1742661353447" duration="1274000" />
       <workItem from="1742702369642" duration="482000" />
-      <workItem from="1742702873500" duration="3839000" />
+      <workItem from="1742702873500" duration="8228000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
