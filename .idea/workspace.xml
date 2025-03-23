@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/enums/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/notification/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +77,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;82a8749c871455081713c43404e43e6e&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;5726c4a7b343d745cb5da15cac012a92&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -87,11 +94,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.notification.kafka.order" />
+      <recent name="com.example.notification.enums" />
       <recent name="com.example.order.dto" />
       <recent name="com.example.payment.dto" />
       <recent name="com.example.payment.service" />
-      <recent name="com.example.payment.repository" />
-      <recent name="com.example.payment.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WorkSpace\Code\e-commerce-app\services\order\src\main\java\com\example\order" />
@@ -240,6 +247,9 @@
       <workItem from="1741970618140" duration="139000" />
       <workItem from="1741972477424" duration="2789000" />
       <workItem from="1742234614800" duration="1312000" />
+      <workItem from="1742661353447" duration="1274000" />
+      <workItem from="1742702369642" duration="482000" />
+      <workItem from="1742702873500" duration="1024000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
