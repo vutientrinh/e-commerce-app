@@ -1,4 +1,4 @@
-package com.example.notification.kafka.payment;
+package com.example.notification.notification;
 
 import com.example.notification.notification.Notification;
 import org.springframework.data.mongodb.repository.MongoRepository;
