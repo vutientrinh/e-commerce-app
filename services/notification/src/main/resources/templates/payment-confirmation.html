@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .content {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            text-align: center;
+            color: #888;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="header">Payment Confirmation</div>
+    <div class="content">
+        <p>Dear <span th:text="${customerName}"></span>,</p>
+        <p>Thank you for your payment of <strong>$<span th:text="${amount}"></span></strong></p>
+        <p>You can view your order details by clicking the button below:</p>
+        <p style="text-align: center;"><span th:text="${orderReference}">View Order</span></p>
+        <p>If you have any questions, feel free to contact our support team.</p>
+    </div>
+    <div class="footer">Thank you for your business!</div>
+</div>
+</body>
+
+</html>

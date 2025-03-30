@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="config server and delivery">
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/resources/templates/order-confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification/src/main/resources/templates/payment-confirmation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/payment/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/notification/NotificationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +251,8 @@
       <workItem from="1742997244355" duration="238000" />
       <workItem from="1743148409535" duration="2643000" />
       <workItem from="1743175281752" duration="822000" />
-      <workItem from="1743256812048" duration="3769000" />
+      <workItem from="1743256812048" duration="4412000" />
+      <workItem from="1743303012146" duration="4655000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
