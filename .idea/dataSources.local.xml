@@ -11,14 +11,30 @@
       <schema-mapping>
         <introspection-scope>
           <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="payment" />
+              <name qname="postgres" />
+              <name qname="vutientrinh" />
+              <name qname="order" />
+            </node>
             <node kind="database" qname="product">
               <node kind="schema" qname="public" />
             </node>
-            <node kind="database">
-              <name qname="order" />
-              <name qname="payment" />
-            </node>
           </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="@localhost" uuid="360b7724-5fa4-428b-8fa2-03289a19be74">
+      <database-info product="Mongo DB" version="8.0.10" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.20" dbms="MONGO" exact-version="8.0.10" exact-driver-version="1.20" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>vutientrinh</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="admin" />
         </introspection-scope>
       </schema-mapping>
     </data-source>

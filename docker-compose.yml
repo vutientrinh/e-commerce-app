@@ -1,7 +1,7 @@
 services:
   postgres:
     container_name: ms_pg_sql
-    image: postgres
+    image: postgres:latest
     environment:
       POSTGRES_USER: vutientrinh
       POSTGRES_PASSWORD: vutientrinh
@@ -64,7 +64,7 @@ services:
     image: confluentinc/cp-kafka:latest
     container_name: ms_kafka
     ports:
-      - 9092:909
+      - 9092:9092
     depends_on:
       - zookeeper
 
