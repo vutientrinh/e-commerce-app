@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/customer/CustomerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/customer/CustomerClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +299,7 @@
       <workItem from="1743256812048" duration="4412000" />
       <workItem from="1743303012146" duration="9993000" />
       <workItem from="1749617235304" duration="8510000" />
-      <workItem from="1749892484924" duration="325000" />
+      <workItem from="1749892484924" duration="1920000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
