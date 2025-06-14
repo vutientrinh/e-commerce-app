@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class PaymentService {
     private final PaymentRepository paymentRepository;
     private final PaymentMapper paymentMapper;
-    private NotificationProducer notificationProducer;
+    private final NotificationProducer notificationProducer;
     public Integer createPayment(PaymentRequest paymentRequest) {
         var payment = paymentRepository.save(paymentMapper.toPayment(paymentRequest));
 
