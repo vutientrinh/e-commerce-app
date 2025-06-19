@@ -48,7 +48,7 @@ public class OrderService {
                 customer
         );
         paymentClient.requestOrderPayment(paymentRequest);
-        System.out.println("Toi day rtiour aldhflkjasdhlfjkashljkdf");
+
 
         //persist order lines
         orderProducer.sendOrderConfirmation(
