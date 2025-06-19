@@ -38,7 +38,7 @@ public class EmailService {
     ) throws MessagingException {
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage, MimeMessageHelper.MULTIPART_MODE_RELATED, StandardCharsets.UTF_8.name());
-        messageHelper.setFrom("vutientrinh@gmail.com");
+        messageHelper.setFrom("vutientrinh.0357@gmail.com");
         final String templateName = PAYMENT_CONFIRMATION.getTemplate();
         Map<String, Object> variables = new HashMap<>();
         variables.put("customerName", customerName);
@@ -69,7 +69,7 @@ public class EmailService {
     ) throws MessagingException {
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage, MimeMessageHelper.MULTIPART_MODE_RELATED, StandardCharsets.UTF_8.name());
-        messageHelper.setFrom("vutientrinh@gmail.com");
+        messageHelper.setFrom("vutientrinh.0357@gmail.com");
         final String templateName = ORDER_CONFIRMATION  .getTemplate();
         Map<String, Object> variables = new HashMap<>();
         variables.put("customerName", customerName);

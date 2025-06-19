@@ -5,8 +5,6 @@ import com.example.order.dto.*;
 import com.example.order.exception.BusinessException;
 import com.example.order.kafka.OrderConfirmation;
 import com.example.order.kafka.OrderProducer;
-import com.example.order.order.Order;
-import com.example.order.order.OrderLine;
 import com.example.order.payment.PaymentClient;
 import com.example.order.product.ProductClient;
 import com.example.order.repository.OrderRepository;
@@ -50,6 +48,7 @@ public class OrderService {
                 customer
         );
         paymentClient.requestOrderPayment(paymentRequest);
+        System.out.println("Toi day rtiour aldhflkjasdhlfjkashljkdf");
 
         //persist order lines
         orderProducer.sendOrderConfirmation(

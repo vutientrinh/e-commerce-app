@@ -23,14 +23,15 @@ import static java.lang.String.format;
 public class NotificationConsumer {
     private final NotificationRepository notificationRepository;
     private final EmailService emailService;
-    @KafkaListener(topics = "payment-topic")
+    @KafkaListener(topics = "payment-topic", groupId = "paymentGroup")
     public void consumePaymentSuccessNotification(PaymentConfirmation paymentConfirmation) throws MessagingException {
         log.info(format("Consuming the message from payment-topic Topic:: %s", paymentConfirmation));
         notificationRepository.save(
                 Notification.builder()
                         .type(PAYMENT_CONFIRMATION)
                         .notificationDate(LocalDateTime.now())
-                        .paymentConfirmation(paymentConfirmation)
+                        .paymentConfirmation(paymentConfirmation
+                        )
                         .build()
         );
         // Send email
@@ -42,7 +43,7 @@ public class NotificationConsumer {
                 paymentConfirmation.orderReference()
         );
     }
-    @KafkaListener(topics = "order-topic")
+    @KafkaListener(topics = "order-topic", groupId = "orderGroup")
     public void consumeOrderConfirmationNotification(OrderConfirmation orderConfirmation) throws MessagingException {
         log.info(format("Consuming the message from order-topic Topic:: %s", orderConfirmation));
         notificationRepository.save(
@@ -60,6 +61,5 @@ public class NotificationConsumer {
                 orderConfirmation.orderReference(),
                 orderConfirmation.products()
         );
-
     }
 }
