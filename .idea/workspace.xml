@@ -5,20 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_context_propagation_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_14_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_jakarta9_1_14_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_tracing_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_tracing_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_tracing_1_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_tracing_bridge_brave_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_tracing_bridge_brave_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_tracing_bridge_brave_1_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_aws_brave_propagation_aws_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_6_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_slf4j_6_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_6_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_contrib_brave_propagation_w3c_brave_propagation_tracecontext_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_brave_3_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_3_4_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/360b7724-5fa4-428b-8fa2-03289a19be74.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/360b7724-5fa4-428b-8fa2-03289a19be74.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/order.TodRBg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/kafka/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/kafka/OrderConfirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/payment/PaymentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/payment/PaymentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/payment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,42 +85,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/WorkSpace/Code/e-commerce-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "834436f1dcffb26ee4e82b42ece2408b"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Code/e-commerce-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;834436f1dcffb26ee4e82b42ece2408b&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo",
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;,
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "PostgreSQL",
-      "CassandraQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;,
+      &quot;CassandraQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -226,8 +250,8 @@
     <list>
       <item itemvalue="Application.GatewayApplication" />
       <item itemvalue="Docker.docker-compose.yml.kafka: Compose Deployment" />
-      <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.PaymentApplication" />
@@ -320,7 +344,8 @@
       <workItem from="1750263045975" duration="8000" />
       <workItem from="1750317280046" duration="2157000" />
       <workItem from="1750320672428" duration="11000" />
-      <workItem from="1750320798853" duration="4297000" />
+      <workItem from="1750320798853" duration="4493000" />
+      <workItem from="1750340121533" duration="8432000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
