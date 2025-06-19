@@ -17,7 +17,7 @@ spring:
 
       properties:
         spring.json.trusted.packages: '*'
-        spring.json.type.mapping: orderConfirmation:com.example.order.kafka.OrderConfirmation,paymentConfirmation:com.example.payment.dto.PaymentNotificationRequest
+        spring.json.type.mapping: orderConfirmation:com.example.notification.kafka.order.OrderConfirmation,paymentConfirmation:com.example.notification.kafka.payment.PaymentConfirmation
   mail:
     host: localhost
     port: 1025

@@ -6,14 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="8143db51-92fc-4254-b417-1106e77529c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/360b7724-5fa4-428b-8fa2-03289a19be74.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/360b7724-5fa4-428b-8fa2-03289a19be74.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f26a01-463d-4e7f-8402-17e551cdead5/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/email/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/email/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/NotificationConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/notification/src/main/java/com/example/notification/kafka/order/OrderConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/kafka/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/kafka/OrderConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/payment/PaymentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/payment/PaymentClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/example/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,42 +61,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Code/e-commerce-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;834436f1dcffb26ee4e82b42ece2408b&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/WorkSpace/Code/e-commerce-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "834436f1dcffb26ee4e82b42ece2408b"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo",
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;PostgreSQL&quot;,
-      &quot;CassandraQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL",
+      "CassandraQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -118,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.gateway.GatewayApplication" />
       <module name="gateway" />
@@ -309,7 +314,13 @@
       <workItem from="1749892484924" duration="2956000" />
       <workItem from="1749906733984" duration="6047000" />
       <workItem from="1750046133313" duration="6908000" />
-      <workItem from="1750061040210" duration="2288000" />
+      <workItem from="1750061040210" duration="2437000" />
+      <workItem from="1750173019375" duration="2196000" />
+      <workItem from="1750231143227" duration="3434000" />
+      <workItem from="1750263045975" duration="8000" />
+      <workItem from="1750317280046" duration="2157000" />
+      <workItem from="1750320672428" duration="11000" />
+      <workItem from="1750320798853" duration="4297000" />
     </task>
     <task id="LOCAL-00001" summary="config server and delivery">
       <created>1735739296445</created>
@@ -353,7 +364,28 @@
       <option name="project" value="LOCAL" />
       <updated>1749635877398</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="config">
+      <created>1750064595107</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750064595107</updated>
+    </task>
+    <task id="LOCAL-00008" summary="notification">
+      <created>1750064613441</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750064613441</updated>
+    </task>
+    <task id="LOCAL-00009" summary="order">
+      <created>1750064641435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750064641435</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +409,9 @@
     <MESSAGE value="notificaton" />
     <MESSAGE value="order and payment" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="notification" />
+    <MESSAGE value="order" />
+    <option name="LAST_COMMIT_MESSAGE" value="order" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

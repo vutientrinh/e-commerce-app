@@ -36,7 +36,8 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=vutientrinh
       - MONGO_INITDB_ROOT_PASSWORD=vutientrinh
-
+    networks:
+      - microservices-net
 
   mongo-express:
     container_name: ms_mongo_express
@@ -48,7 +49,8 @@ services:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=vutientrinh
       - ME_CONFIG_MONGODB_ADMINPASSWORD=vutientrinh
       - ME_CONFIG_MONGODB_SERVER=ms_mongo_db
-
+    networks:
+      - microservices-net
   zookeeper:
     image: confluentinc/cp-zookeeper:7.3.0
     container_name: ms_zookeeper
@@ -58,47 +60,32 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - 22181:2181
-    volumes:
-      - zookeeper-data:/var/lib/zookeeper/data
     networks:
       - microservices-net
-    healthcheck:
-      test: [ "CMD", "echo", "ruok", "|", "nc", "localhost", "2181" ]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-    restart: unless-stopped
 
   kafka:
     image: confluentinc/cp-kafka:7.3.0
     container_name: ms_kafka
     ports:
       - 9092:9092
-    depends_on:
-      zookeeper:
-        condition: service_healthy
     environment:
       KAFKA_BROKER_ID: 1
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+      KAFKA_ZOOKEEPER_CONNECT: ms_zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
-      KAFKA_NUM_PARTITIONS: 1
-      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
-      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
-    volumes:
-      - kafka-data:/var/lib/kafka/data
+    depends_on:
+      - zookeeper
     networks:
       - microservices-net
-    restart: unless-stopped
-
 
   mail-dev:
     container_name: ms_mail_dev
-    image: maildev/maildev:latest
+    image: maildev/maildev
     ports:
       - 1080:1080
       - 1025:1025
+
     networks:
       - microservices-net
     restart: unless-stopped

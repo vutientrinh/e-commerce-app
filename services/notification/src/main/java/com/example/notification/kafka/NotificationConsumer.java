@@ -26,41 +26,40 @@ public class NotificationConsumer {
     @KafkaListener(topics = "payment-topic", groupId = "paymentGroup")
     public void consumePaymentSuccessNotification(PaymentConfirmation paymentConfirmation) throws MessagingException {
         log.info(format("Consuming the message from payment-topic Topic:: %s", paymentConfirmation));
-//        notificationRepository.save(
-//                Notification.builder()
-//                        .type(PAYMENT_CONFIRMATION)
-//                        .notificationDate(LocalDateTime.now())
-//                        .paymentConfirmation(paymentConfirmation
-//                        )
-//                        .build()
-//        );
-//        // Send email
-//        var customerName = paymentConfirmation.customerFirstName() + " " + paymentConfirmation.customerLastName();
-//        emailService.sentPaymentSuccessEmail(
-//                paymentConfirmation.customerEmail(),
-//                customerName,
-//                paymentConfirmation.amount(),
-//                paymentConfirmation.orderReference()
-//        );
+        notificationRepository.save(
+                Notification.builder()
+                        .type(PAYMENT_CONFIRMATION)
+                        .notificationDate(LocalDateTime.now())
+                        .paymentConfirmation(paymentConfirmation
+                        )
+                        .build()
+        );
+        // Send email
+        var customerName = paymentConfirmation.customerFirstName() + " " + paymentConfirmation.customerLastName();
+        emailService.sentPaymentSuccessEmail(
+                paymentConfirmation.customerEmail(),
+                customerName,
+                paymentConfirmation.amount(),
+                paymentConfirmation.orderReference()
+        );
     }
     @KafkaListener(topics = "order-topic", groupId = "orderGroup")
     public void consumeOrderConfirmationNotification(OrderConfirmation orderConfirmation) throws MessagingException {
         log.info(format("Consuming the message from order-topic Topic:: %s", orderConfirmation));
-//        notificationRepository.save(
-//                Notification.builder()
-//                        .type(ORDER_CONFIRMATION)
-//                        .notificationDate(LocalDateTime.now())
-//                        .orderConfirmation(orderConfirmation)
-//                        .build()
-//        );
-//        var customerName = orderConfirmation.customer().firstName() + " " + orderConfirmation.customer().lastName();
-//        emailService.sentOrderConfirmationSuccessEmail(
-//                orderConfirmation.customer().email(),
-//                customerName,
-//                orderConfirmation.totalAmount(),
-//                orderConfirmation.orderReference(),
-//                orderConfirmation.products()
-//        );
-
+        notificationRepository.save(
+                Notification.builder()
+                        .type(ORDER_CONFIRMATION)
+                        .notificationDate(LocalDateTime.now())
+                        .orderConfirmation(orderConfirmation)
+                        .build()
+        );
+        var customerName = orderConfirmation.customer().firstName() + " " + orderConfirmation.customer().lastName();
+        emailService.sentOrderConfirmationSuccessEmail(
+                orderConfirmation.customer().email(),
+                customerName,
+                orderConfirmation.totalAmount(),
+                orderConfirmation.orderReference(),
+                orderConfirmation.products()
+        );
     }
 }
